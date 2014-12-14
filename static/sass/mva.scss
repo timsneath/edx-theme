@@ -13,7 +13,7 @@
 //Main Color Variables
 $main-color: #00bbf2;
 $dark-color: #0073c3; //Link Color
-$light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
+$light-color: #00bbf2; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
 //Main BG Color Variables
@@ -45,11 +45,11 @@ $black-80: #585858;
 //-----------------
 
 $theme-sans-font: 'Segoe UI';
-$sans-serif: $theme-sans-font, $sans-serif;
+$sans-serif: $theme-sans-font;
 $body-font-family: $sans-serif;
 
 $theme-serif-font: 'Crimson Text';
-$serif: $theme-serif-font, $serif;
+$serif: $theme-serif-font;
 
 
 
@@ -181,7 +181,7 @@ $modal-bg-color: $gray-1;
 $header_image_margin: -77px;
 
 //FOOTER MARGIN
-$footer_margin: ($baseline/4) 0;
+// $footer_margin: ($baseline/4) 0;
 
 //-----------------
 //  CSS BG Images
